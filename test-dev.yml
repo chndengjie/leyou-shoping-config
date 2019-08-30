@@ -11,7 +11,10 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 10
   rabbitmq:
-    host: 192.168.19.121
+    host: localhost
+    username: admin
+    password: 123456
+    virtual-host: /host_admin
   data:
     mongodb:
       host: localhost
